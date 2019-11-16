@@ -11,7 +11,7 @@ divisible by 3. Save the result as div_by_3.npy '''
 
 import numpy as np
 
-# Z - 10x10 ndarray from 1 to 10000
+# Y - 10x10 ndarray from 1 to 10000
 # Z - squares of the ndarray from 1 to 10000
 
 Y = np.array(np.array([(np.linspace(1,10,10)), (np.linspace(11,20,10)), (np.linspace(21,30,10)), 
