@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+
 """
 Created on Sat Nov 16 22:43:07 2019
 
@@ -25,4 +25,6 @@ Z = np.multiply(Y,Y)
 
 modulo = np.array([(Z[Z%3 == 0])])
 modulo_conv = modulo.astype(int)
+
+print('Divisible by 3: \n')
 print(modulo_conv)
